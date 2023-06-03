@@ -1,0 +1,23 @@
+{
+    "gradients_for_everyone": "Gradients for everyone",
+    "color_catalog": "Color catalog",
+    "selection": "Selection",
+    "favourites": "Favourites",
+    "error": "The connection is lost,\ncheck the Internet",
+    "color": "Color",
+
+    "purple": "Purple",
+    "blue": "Blue",
+    "green": "Green",
+    "cyan": "Cyan",
+    "dark": "Dark",
+    "golden": "Golden",
+    "lime": "Lime",
+    "mixed": "Mixed",
+    "orange": "Orange",
+    "pastel": "Pastel",
+    "pink": "Pink",
+    "red": "Red",
+    "silver": "Silver",
+    "yellow": "Yellow"
+}

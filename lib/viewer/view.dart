@@ -1,0 +1,38 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+export 'package:flutter/material.dart';
+export 'package:get_color/features/initial/view/initial_screen.dart';
+export 'package:get_color/components/constants.dart';
+export 'package:get_color/features/initial/widgets/buttons.dart';
+export 'package:firebase_core/firebase_core.dart';
+export 'package:cloud_firestore/cloud_firestore.dart';
+export 'package:get_color/features/gradient_lists/widgets/gradient_icons.dart';
+export 'package:get_color/features/gradient_lists/gradients_catalog/view/catalog_screen.dart';
+export 'package:get_color/components/create_routes.dart';
+export 'package:get_color/l10n/l10n.dart';
+export 'package:flutter_localizations/flutter_localizations.dart';
+export 'package:flutter_gen/gen_l10n/app_localizations.dart';
+export 'package:provider/provider.dart';
+export 'package:get_color/features/initial/providers/locale_provider.dart';
+export 'package:get_color/app.dart';
+export 'package:get_color/features/gradient_lists/gradients_catalog/widgets/collection_card.dart';
+export 'package:flutter_bloc/flutter_bloc.dart';
+export 'dart:async';
+export 'package:get_color/features/gradient_lists/gradients_catalog/bloc/collection_bloc.dart';
+export 'package:get_color/features/gradient_lists/widgets/gradient_card.dart';
+export 'package:get_color/models/gradient_model.dart';
+export 'package:equatable/equatable.dart';
+export 'package:shared_preferences/shared_preferences.dart';
+export 'package:get_color/features/gradient_lists/gradients_favourite/view/favourite_screen.dart';
+export 'package:get_color/features/gradient_lists/gradients_selection/view/selection_screen.dart';
+export 'package:get_color/features/initial/providers/favourite_provider.dart';
+export 'package:get_color/features/gradient_lists/gradients_favourite/bloc/favourite_bloc.dart';
+export 'package:get_color/features/gradient_lists/gradients_catalog/view/catalog_collection_screen.dart';
+export 'package:get_color/features/gradient_lists/gradients_selection/bloc/selection_bloc.dart';
+export 'package:get_color/features/gradient_lists/widgets/type_appbar.dart';
+export 'package:get_color/features/gradient_lists/widgets/error_widget.dart';
+export 'package:get_color/features/gradient_lists/widgets/loading_widget.dart';
+export 'package:bloc_concurrency/bloc_concurrency.dart';
+export 'package:flutter/services.dart';
+
+final FirebaseFirestore db = FirebaseFirestore.instance;
